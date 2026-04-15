@@ -9,7 +9,7 @@ A Generative Adversarial Network built from scratch in PyTorch to generate reali
 A GAN consists of two networks trained simultaneously in opposition:
 
 - **Generator** — takes random noise as input and generates fake images
-- **Discriminator** — takes an image (real or fake) and predicts whether it's real
+- **Discriminator** — takes an image (real or fake) and predicts whether it is real
 
 They compete in a minimax game:
 - Discriminator tries to correctly distinguish real from fake
